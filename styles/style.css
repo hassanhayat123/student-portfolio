@@ -292,6 +292,21 @@ p {
 .tag-culture { background: #c2416b; }
 .tag-debate { background: #8a56c2; }
 
+.examples {
+  font-size: 0.9rem;
+  color: var(--muted);
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+.not-sure {
+  margin-top: 36px;
+  background: #fff7e8;
+  border: 1px solid #f3d9a6;
+  border-radius: var(--radius);
+  padding: 22px 24px;
+}
+
 @media (max-width: 700px) {
   .category-grid {
     grid-template-columns: 1fr;
