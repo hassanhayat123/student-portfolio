@@ -385,7 +385,9 @@ p {
   }
 
   .event-date {
+    flex: none;
     flex-direction: row;
+    align-items: baseline;
     gap: 8px;
     height: auto;
     width: fit-content;
