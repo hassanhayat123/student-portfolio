@@ -531,3 +531,54 @@ p {
     font-size: 0.9rem;
   }
 }
+
+/* ==========================================================
+   Highlights page (highlights.html)
+   ========================================================== */
+.hl-intro {
+  color: var(--muted);
+  margin-bottom: 26px;
+}
+
+.highlight-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 22px;
+}
+
+.highlight {
+  background: var(--card);
+  border-radius: var(--radius);
+  padding: 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+  border-top: 4px solid var(--accent);
+}
+
+.highlight h2 {
+  font-size: 1.25rem;
+  color: var(--primary);
+}
+
+.hl-badge {
+  display: inline-block;
+  background: #fff3dc;
+  color: #a35f00;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.hl-club {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--muted);
+  margin-bottom: 0;
+}
+
+@media (max-width: 700px) {
+  .highlight-grid {
+    grid-template-columns: 1fr;
+  }
+}
