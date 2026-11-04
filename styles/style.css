@@ -577,8 +577,36 @@ p {
   margin-bottom: 0;
 }
 
+.stats {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  background: var(--primary);
+  border-radius: var(--radius);
+  padding: 28px 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.stat-num {
+  display: block;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.stat-label {
+  font-size: 0.9rem;
+}
+
 @media (max-width: 700px) {
   .highlight-grid {
     grid-template-columns: 1fr;
+  }
+
+  .stats {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 24px;
   }
 }
