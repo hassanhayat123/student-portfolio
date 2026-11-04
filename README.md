@@ -10,11 +10,11 @@ see upcoming events and learn how to join.
 
 | Page | File | Owner |
 |------|------|-------|
-| Home | `src/index.html` | Team Lead |
-| Club Categories | `src/clubs.html` | Team Lead |
-| Upcoming Events | `src/events.html` | Team Lead |
-| How to Join | `src/join.html` | Member |
-| Highlights | `src/highlights.html` | Member |
+| Home | `src/index.html` | Team Lead (Hassan Hayat) |
+| Club Categories | `src/clubs.html` | Team Lead (Hassan Hayat) |
+| Upcoming Events | `src/events.html` | Team Lead (Hassan Hayat) |
+| How to Join | `src/join.html` | Member (Abeer Arif) |
+| Highlights | `src/highlights.html` | Member (Abeer Arif) |
 
 All pages share one stylesheet: `styles/style.css`.
 
@@ -25,6 +25,23 @@ All pages share one stylesheet: `styles/style.css`.
 - `feature/<page-name>` - one branch per page, opened as a PR into `develop`
 - `release/v1.0` - release branch for testing before it goes to `main`
 
+## Team
+
+| Name | GitHub | Role |
+|------|--------|------|
+| Hassan Hayat | hassanhayat123 | Team Lead |
+| Abeer Arif | sameedsaeed123 | Member |
+
 ## Running it
 
-No build step. Just open `src/index.html` in a browser.
+No build step. Clone the repo and open `src/index.html` in a browser.
+
+```
+git clone https://github.com/hassanhayat123/student-portfolio.git
+cd student-portfolio
+open src/index.html
+```
+
+## Releases
+
+- **v1.0** - first release with all five pages, responsive layout and current page highlight in the nav.
