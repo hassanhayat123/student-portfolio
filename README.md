@@ -3,7 +3,7 @@
 A small static website for our university's Student Clubs Portal, built as a group
 project for DevOps Fundamentals (Assignment 01).
 
-The site introduces the student clubs on campus and helps new students find a club,
+The site introduces the student clubs on campus and helps new     students find a club,
 see upcoming events and learn how to join.
 
 ## Pages
